@@ -12,7 +12,7 @@ const GoDequest = () => {
     <div className="">
       <div className="grid grid-cols-8 gap-3">
         <div className="col-span-3">
-          <div className="ml-14 text-5xl">
+          <div className="ml-14 text-4xl">
             <div>Stuck on a problem while you’re working?</div>
             <div className="py-6 text-center">OR</div>
             <div>Want to share your knowledge with others?</div>

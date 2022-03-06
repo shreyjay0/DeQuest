@@ -9,6 +9,10 @@ import share from '../images/share.svg';
 import upvote from '../images/upvote.svg';
 import diamond from '../images/diamond.svg';
 import dequest from '../images/dequest.svg';
+import search from '../images/search.svg';
+import profile from '../images/profile.svg';
+import answers from '../images/answers.svg';
+import dequestLgBg from '../images/dequest-large.svg';
 
 export {
   buy_deso,
@@ -22,4 +26,8 @@ export {
   share,
   upvote,
   diamond,
+  search,
+  profile,
+  answers,
+  dequestLgBg,
 };

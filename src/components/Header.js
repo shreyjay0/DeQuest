@@ -4,7 +4,12 @@ import { dequest } from '../constants/img';
 
 const Header = () => {
   const onLoginClick = () => {
-    console.log('opening identity');
+    console.log('Verify identity, a pop up will appear');
+    console.log('Make sure the popup url starts with: ');
+    console.log(
+      '%c https://identity.deso.org',
+      'color: blue; font-weight: bold; font-size: 20px;'
+    );
   };
   return (
     <div className="header flex items-center justify-between p-m-20">

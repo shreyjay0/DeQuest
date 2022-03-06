@@ -1,8 +1,11 @@
 import React from 'react';
+import AddPost from '../components/AddPost';
 
 const Home = () => (
   <div className="">
-    <div>Home</div>
+    <div>
+      <AddPost />
+    </div>
   </div>
 );
 
