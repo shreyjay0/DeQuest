@@ -3,7 +3,7 @@ import React from 'react';
 const Button = (props) => {
   const { btnText, onClick, className } = props;
   return (
-    <div className="btn">
+    <div className="button">
       <button onClick={onClick} className={`bg-deq-blue ${className}`}>
         {btnText}
       </button>
