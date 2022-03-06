@@ -9,7 +9,9 @@ const Header = () => {
   return (
     <div className="header flex items-center justify-between p-m-20">
       <h1>
-        <img src={dequest} alt="DeQuest" />
+        <a href="/">
+          <img src={dequest} alt="DeQuest" />
+        </a>
       </h1>
       <ul>
         <li>

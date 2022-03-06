@@ -34,6 +34,9 @@ module.exports = {
       },
     },
   },
+  variants: {
+    scale: ['hover'],
+  },
   plugins: [
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
