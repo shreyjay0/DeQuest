@@ -5,7 +5,8 @@ import Sidebar from './components/Sidebar';
 import GoDequest from './pages/GoDequest';
 import Home from './pages/Home';
 import RightContent from './components/RightContent';
-import Wallet from './components/Wallet';
+import Wallet from './pages/Wallet';
+import Profile from './pages/Profile';
 
 const App = () => (
   <div className="App">
@@ -18,10 +19,10 @@ const App = () => (
           <div className="mr-d-20 flex min-h-[100vh] grow rounded-t-deq bg-deq-bg-light p-8">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/get-deso" element={<div>Check</div>} />
+              <Route path="/get-deso" element={<div>Deso</div>} />
               <Route path="/wallet" element={<Wallet />} />
-              <Route path="/profile" element={<div>Check</div>} />
-              <Route path="/settings" element={<div>Check</div>} />
+              <Route path="/profile" element={<Profile />} />
+              <Route path="/settings" element={<div>Logout</div>} />
             </Routes>
             <RightContent />
           </div>

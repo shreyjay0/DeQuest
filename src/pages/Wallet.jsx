@@ -1,6 +1,6 @@
 import React from 'react';
 import { profile, dequestLgBg } from '../constants/img';
-import Button from './Button';
+import Button from '../components/Button';
 
 const Wallet = () => {
   const pubkey = 'daASDAkasdcaSDAOdsac90iiP';
@@ -8,7 +8,7 @@ const Wallet = () => {
   const desobal = 2.0;
   const calcCurrentDesoValInUSD = () => (parseFloat(desobal) * 33.8).toFixed(2);
 
-  const explorerLink = `https:/ /explorer.deso.org/?query-node=https:%252F%252Fnode.deso.org&public-key=${pubkey}`;
+  const explorerLink = `https://explorer.deso.org/?query-node=https:%252F%252Fnode.deso.org&public-key=${pubkey}`;
 
   return (
     <div className="my-0 mx-auto flex max-h-[150px] flex-col rounded-deq bg-white p-4">
@@ -29,7 +29,7 @@ const Wallet = () => {
           View on explorer
         </a>
       </div>
-      <div className="my-0 mx-auto mt-[80%]">
+      <div className="overflow-none my-0 mx-auto mt-[15%]">
         <img src={dequestLgBg} alt="" />
       </div>
     </div>

@@ -63,7 +63,11 @@ const Sidebar = () => {
             ))}
           </ul>
         </nav>
-        <Button className="" onClick={onClickDequest} />
+        <Button
+          className="text-d-20 mt-3 h-[34px] w-full rounded-lg font-bold text-white"
+          btnText="DeQuest"
+          onClick={onClickDequest}
+        />
         {eAccess === 'true' && (
           <div
             id="early-access-box"

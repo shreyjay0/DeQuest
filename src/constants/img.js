@@ -13,6 +13,7 @@ import search from '../images/search.svg';
 import profile from '../images/profile.svg';
 import answers from '../images/answers.svg';
 import dequestLgBg from '../images/dequest-large.svg';
+import upvoted from '../images/upvoted.svg';
 
 export {
   buy_deso,
@@ -30,4 +31,5 @@ export {
   profile,
   answers,
   dequestLgBg,
+  upvoted,
 };
